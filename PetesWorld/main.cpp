@@ -23,7 +23,7 @@ int main()
 		return 0;
 	}
 
-	std::cout << "Pick a letter from A to B or Y to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to B or W to Z" << std::endl; // change this line each iteration
 
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
@@ -83,6 +83,31 @@ int main()
 			}
 		}
 	}
+
+	if (letter == 'w' || letter == 'W') // written by RoB
+	{
+		if (region == 1) 
+		{
+			std::cout << "There are no Ws in the Americas" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "There are no Ws in Europe" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Western Sahara" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "There are no Ws in Asia" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Wallis and Futuna Islands, Polynesia (Oceania)" << std::endl;
+		}
+	}
+
 
 	if (letter == 'y' || letter == 'Y') // written by RoB
 	{
