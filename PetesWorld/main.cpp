@@ -23,9 +23,9 @@ int main()
 		return 0;
 	}
 
-	std::cout << "Pick a letter from A to B or V to Z" << std::endl; // change this line each iteration
-
+	std::cout << "Pick a letter from A to C or V to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
+
 	if (letter < 'A' || letter > 'Z') // not a capital letter
 	{ 
 		if (letter < 'a' || letter > 'z') // not a lower case letter
@@ -62,25 +62,49 @@ int main()
 	{
 		if (region == 1)
 		{
-			std::cout << "Carribean, Barbados, Belize, Bermuda, Bolivia, Brazil" << std::endl;
-			if (region == 2)
-			{
-				std::cout << "Belarus, Belgium, Bosnia and Herzegovina, Bulgaria" << std::endl;
+		std::cout << "Barbados, Belize, Bermuda, Bolivia, Brazil" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Belarus, Belgium, Bosnia and Herzegovina, Bulgaria" << std::endl;
 
-			}
-			if (region == 3)
-			{
-				std::cout << "Bostwana, BurkinaFaso, Burundi, African Great Lakes, Benin" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Bostwana, BurkinaFaso, Burundi, African Great Lakes, Benin" << std::endl;
 
-			}
-			if (region == 4)
-			{
-				std::cout << "Bahrain, Bhutan, Brunei, " << std::endl;
-			}
-			if (region == 5)
-			{
-				std::cout << "There are no countries beginning with letter B in the rest of the world" << std::endl;
-			}
+		}
+		if (region == 4)
+		{
+			std::cout << "Bahrain, Bhutan, Brunei, " << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no countries beginning with letter B in the rest of the world" << std::endl;
+		}
+	}
+
+	if (letter == 'c' || letter == 'C') //written by eliska
+	{
+		if (region == 1)
+		{
+			std::cout << "Canada, Chile,Colombia, Costa Rica, Cuba, Cayman Islands Greater Antilles" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Croatia, Czech Republic" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Cameroon, Cape Verde, central Africa Republic, Chad, Comoros, Kinshasa, Brazzaville, Ivory Coast" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Cambodia, Christmas Island, Cocos Islands, Cyprus" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Cook Islands" << std::endl;
 		}
 	}
 
@@ -107,9 +131,9 @@ int main()
 			std::cout << "Vanatu, Virgin Islands (British), Virgin Islands (US), Wallis and Futuna Islands" << std::endl;
 		}
 	}
-
+	
 	if (letter == 'w' || letter == 'W') // written by RoB
-	{
+		{
 		if (region == 1) 
 		{
 			std::cout << "There are no Ws in the Americas" << std::endl;
@@ -132,7 +156,6 @@ int main()
 		}
 	}
 
-
 	if (letter == 'y' || letter == 'Y') // written by RoB
 	{
 		if (region == 1) 
@@ -141,7 +164,7 @@ int main()
 		}
 		if (region == 2)
 		{
-			std::cout << "There are no Ys in Euope" << std::endl;
+			std::cout << "There are no Ys in Europe" << std::endl;
 		}
 		if (region == 3)
 		{
@@ -179,10 +202,7 @@ int main()
 		{
 			std::cout << "There are no Zs in rest of the world" << std::endl;
 		}
-
 	}
-	
-	
 	
 	return 1;
 }
