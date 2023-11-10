@@ -107,6 +107,30 @@ int main()
 			std::cout << "Cook Islands" << std::endl;
 		}
 	}
+	if (letter == 'd' || letter == 'D') //written by eliska
+	{
+		if (region == 1)
+		{
+			std::cout << "Dominica, Dominican republic" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Dennmark" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "No D countries in Africa" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "No D countries in Asia" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "No D countries in the rest of the world" << std::endl;
+		}
+	}
+
 
 	if (letter == 'u' || letter == 'U') // written by RoB
 	{
