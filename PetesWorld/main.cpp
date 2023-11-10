@@ -23,7 +23,7 @@ int main()
 		return 0;
 	}
 
-	std::cout << "Pick a letter from A to B or W to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to B or V to Z" << std::endl; // change this line each iteration
 
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
@@ -81,6 +81,30 @@ int main()
 			{
 				std::cout << "There are no countries beginning with letter B in the rest of the world" << std::endl;
 			}
+		}
+	}
+
+	if (letter == 'v' || letter == 'V') // written by RoB
+	{
+		if (region == 1) // Americas
+		{
+			std::cout << "Venezuela" << std::endl;
+		}
+		if (region == 2) // Europe
+		{
+			std::cout << "Vatican City State" << std::endl;
+		}
+		if (region == 3) // Africa
+		{
+			std::cout << "There are no Vs in Africa" << std::endl;
+		}
+		if (region == 4) // Asia
+		{
+			std::cout << "Vietnam" << std::endl;
+		}
+		if (region == 5) // Rest of world
+		{
+			std::cout << "Vanatu, Virgin Islands (British), Virgin Islands (US), Wallis and Futuna Islands" << std::endl;
 		}
 	}
 
