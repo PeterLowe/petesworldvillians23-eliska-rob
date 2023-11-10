@@ -108,6 +108,30 @@ int main()
 		}
 	}
 
+	if (letter == 'u' || letter == 'U') // written by RoB
+	{
+		if (region == 1) //Am
+		{
+			std::cout << "North America, Urguay" << std::endl;
+		}
+		if (region == 2) //Eu
+		{
+			std::cout << "United Kingdom, Ukraine" << std::endl;
+		}
+		if (region == 3) //Af
+		{
+			std::cout << "Uganda" << std::endl;
+		}
+		if (region == 4) //As
+		{
+			std::cout << "Uzbekistan" << std::endl;
+		}
+		if (region == 5) //Rest
+		{
+			std::cout << "United Arab Emirates" << std::endl;
+		}
+	}
+
 	if (letter == 'v' || letter == 'V') // written by RoB
 	{
 		if (region == 1) // Americas
